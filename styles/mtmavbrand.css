@@ -1,0 +1,29 @@
+html {
+	background-image: url("../images/mountain.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	font-family: "Garamond", "Monaco", Serif;
+}
+
+h1, footer p, footer {
+	text-align: center;
+	background-color: lightgray;
+	opacity: 80%;
+}
+
+h2, p {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: left;
+}
+
+main p {
+	padding: 10px;
+	background-color: #FFFFF0;
+	opacity: 90%;
+}
+
+footer {
+	margin-top: 75px;
+}
