@@ -3,6 +3,8 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
+	width: 100%;
+	margin: auto;
 	font-family: "Garamond", "Monaco", Serif;
 }
 
@@ -10,6 +12,8 @@ h1, footer p, footer {
 	text-align: center;
 	background-color: lightgray;
 	opacity: 80%;
+	padding: 10px;
+	margin: auto;
 }
 
 h2, p {
@@ -19,11 +23,28 @@ h2, p {
 }
 
 main p {
+	border: 5px solid lightpink;
 	padding: 10px;
 	background-color: #FFFFF0;
 	opacity: 90%;
 }
 
-footer {
-	margin-top: 75px;
+nav {
+	text-align: center;
+}
+
+nav a {
+	padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkcyan;
+}
+
+a:hover {
+	color: lightyellow;
 }
