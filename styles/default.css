@@ -6,6 +6,10 @@ a:hover {
 	background-color: #8FD694;
 }
 
+nav a {
+	padding-right: 25px;
+}
+
 body {
 	margin-left: 100px;
 	text-align: left;
