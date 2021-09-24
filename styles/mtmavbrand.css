@@ -1,6 +1,6 @@
 html {
 	background-image: url("../images/mountain.jpeg");
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
